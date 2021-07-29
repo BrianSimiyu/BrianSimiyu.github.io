@@ -37,6 +37,10 @@ main {
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .space-btwn {
   justify-content: space-between;
 }
