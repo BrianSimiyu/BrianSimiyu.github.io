@@ -5,157 +5,161 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Brian Simiyu CV</title>
   </head>
   <body>
-    <section class="top">
-      <nav>
-        <div class="logo">
-          <h1>BRIAN SIMIYU</h1>
-        </div>
-
+    <header>
+      <nav class="flex space-btwn">
         <div class="nav-list">
-          <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <li>Experience</li>
-            <li>Education</li>
-            <li>Contact</li>
+          <ul class="nav-links flex space-btwn">
+            <li>PROJECTS</li>
+
+            <li>EDUCATION</li>
+            <li>CONTACTS</li>
           </ul>
         </div>
       </nav>
 
-      <!-- Introduction-->
-      <div class="introduction">
-        <h5>Hello! i'm</h5>
-        <h3>BRIAN SIMIYU</h3>
-        <p>
-          WEB DESIGN | DIGITAL MARKETING | UX DESIGN | WEB DEVELOPMENT | MOBILE
-          APPS
-        </p>
-        <input type="button" value="LET'S TALK" />
-      </div>
-    </section>
-
-    <!-- ABOUT ME-->
-    <section class="about">
-      <div>
-        <img src="brian.JPG" alt="Profile_Picture" />
-      </div>
-      <div>
-        <div>
-          <h3>ABOUT ME</h3>
-          <h6>Hello i'm Brian Simiyu</h6>
-          <p>
-            I'm a very extroverted person who likes to connect with people. I
-            enjoy finding and creating effective solutions to problems. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Quas debitis
-            repellat, in ipsum obcaecati expedita aliquid? Sequi aut tempora
-            facere!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            earum reprehenderit nesciunt laborum, debitis recusandae a maiores
-            laboriosam eaque odio non fuga facere sint, odit ipsam? Voluptas
-            quasi dolorem iure?
-          </p>
+      <section class="top">
+        <div class="top-text">
+          <div>
+            <p>Hi, I am</p>
+            <h5>BRIAN SIMIYU</h5>
+            <p>WEB DESIGN | DIGITAL MARKETING | UX DESIGN | WEB DEVELOPMENT</p>
+          </div>
         </div>
+        <div
+          class="main-imagecontainer"
+          style="background-image: url(/images/profile.JPG)"
+        ></div>
+      </section>
+    </header>
 
-        <div>
-          <p>social media icons</p>
+    <main>
+      <!-- projects-->
+      <section class="ms projects">
+        <h3 class="section-heading">PROJECTS</h3>
+        <div class="projects-container flex space-btwn">
+          <div >
+            <div
+              class="website-images"
+              style="background-image: url(images/laxbar.JPG)"
+            ></div>
+            <div>
+              <h4>Website Name</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+                accusantium!
+              </p>
+            </div>
+          </div> 
+
+          <div>
+            <div
+              class="website-images"
+              style="background-image: url(images/laxbar.JPG)"
+            ></div>
+            <div>
+              <h4>Website Name</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+                accusantium!
+              </p>
+          </div>
+          </div>
+
+          <div>
+            <div
+              class="website-images"
+              style="background-image: url(images/laxbar.JPG)"
+            ></div>
+            <div>
+              <h4>Website Name</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+                accusantium!
+              </p> 
+          </div>
         </div>
+      </section>
 
-        <div>
-          <input type="button" value="CONTACT ME" />
+      <!-- Academic History-->
+      <section class="ms">
+        <h3 class="section-heading">ACADEMIC HISTORY</h3>
+        <div class="content6">
+          <div class="school-item flex">
+            <div
+              class="school-images"
+              style="background-image: url(images/haaga-pasila.png)"
+            ></div>
+            <div class="school-desc">
+              <h5>Haaga-Helia University of Applied Sciences</h5>
+              <h6>Bachelors in Business Information Technology</h6>
+              <p>From 2020 Jan - Present</p>
+              <p>-Specialization in Software Engineering</p>
+            </div>
+          </div>
+
+          <div class="school-item flex">
+            <div
+              class="school-images"
+              style="background-image: url(images/lut-uni.jpg)"
+            ></div>
+            <div class="school-desc">
+              <h5>Lappeenranta University</h5>
+              <h6>Masters in International marketing Management</h6>
+              <p>
+                -From 2018 - 2020 <br />
+                - Specialization digital marketing <br />
+                - Electives in marketing analytics
+              </p>
+            </div>
+          </div>
+
+          <div class="school-item flex">
+            <div
+              class="school-images"
+              style="background-image: url(images/samk-uni.jpg)"
+            ></div>
+            <div class="school-desc">
+              <h5>Satakunta University of Applied Sciences</h5>
+              <h6>Bachelors in International Business</h6>
+              <p>
+                - From 2014 - 2017 <br />
+                - Specialization supply chain management <br />
+                - Electives in service design
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Work expereince-->
-    <section class="workExperience">
-      <h3>EXPEREINCE</h3>
-      <div class="jobs">
-        <div class="job-item">
-          <h5>Bartender</h5>
-          <h6>Heidi's Bier Bar, Helsinki</h6>
-          <p>August 2019 - Present</p>
-        </div>
-
-        <div class="job-item">
-          <h5>Marketing Intern</h5>
-          <h6>REKOM Group</h6>
-          <p>February - May 2020</p>
-        </div>
-
-        <div class="job-item">
-          <h5>Operator (Production Department)</h5>
-          <h6>Valmet Automotive, Uusikaupunki</h6>
-          <p>February - July 2017</p>
-        </div>
-
-        <div class="job-item">
-          <h5>Sales and Marketing Coordinator (UK Market)</h5>
-          <h6>Tukime Oy</h6>
-          <p>January - July 2017</p>
-        </div>
-
-        <div class="job-item">
-          <h5>Sales and Procurement Assistant</h5>
-          <h6>Mumias Sugar Company Limited</h6>
-          <p>May - August 2015</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Work expereince-->
-    <section>
-      <div class="content6">
-        <h3>Academic History</h3>
-        <h5>Haaga-Helia University of Applied Sciences</h5>
-        <h6>Bachelors in Business Information Technology</h6>
-        <p>-Specialization in Software Engineering</p>
-        <h5>Lappeenranta University</h5>
-        <h6>Masters in International marketing Management</h6>
-        <p>
-          -Attended from Sept. 2018 to July 2020 <br />
-          - Specialization digital marketing <br />
-          - Electives in marketing analytics
-        </p>
-        <h5>Satakunta University of Applied Sciences</h5>
-        <h6>Bachelors in International Business</h6>
-        <p>
-          - Attended from Sept. 2014 to June 2017 <br />
-          - Specialization supply chain management <br />
-          - Electives in service design
-        </p>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Contact-->
-    <div class="content3">
-      <div>
-        <h3>Get in Touch</h3>
-        <div>
-          <h5>Mobile:</h5>
-          <p>+358 44 987 4860</p>
-        </div>
-        <div>
-          <h5>Email:</h5>
-          <p>brianmaruti@gmail.com</p>
-        </div>
-        <div>
-          <h5>Address:</h5>
-          <p>Karsulantie 8 A 38</p>
+    <footer>
+      <div class="footer-container flex space-btwn">
+        <div class="footer-child flex">
+          <div class="iconandtext flex">
+            <i class="fa fa-phone" style="font-size: 18px"></i>
+            <p>+358 44 987 4860</p>
+          </div>
+          <div class="iconandtext flex">
+            <i class="fa fa-envelope" style="font-size: 20px"></i>
+            <p>brianmaruti@gmail.com</p>
+          </div>
         </div>
 
-        <h5>LinkedIn:</h5>
-        <p>
-          <a href="https://www.linkedin.com/in/brian-simiyu/" target="_blank"
-            >Brian Simiyu</a
-          >
-        </p>
+        <div class="footer-child fc-2">
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-github"></a>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

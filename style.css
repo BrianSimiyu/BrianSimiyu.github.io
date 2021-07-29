@@ -28,59 +28,144 @@ h6 {
 p {
   font-size: 16px;
 }
+main {
+  background-color: black;
+  color: white;
+}
 
-section {
+.flex {
+  display: flex;
+}
+
+.space-btwn {
+  justify-content: space-between;
+}
+
+.ms {
   width: 80%;
   margin: auto;
+  padding-top: 50px;
 }
-.top {
-  background-image: url("brian.jpg") no-repeat center center fixed;
+
+.section-heading {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 1rem;
+}
+.main-imagecontainer {
+  height: 100vh;
+  min-height: 400px;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+}
+.top-text {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  font-weight: 500;
+  z-index: 1;
 }
 nav {
-  display: flex;
-  width: 80%;
-  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  padding-top: 10px;
   margin: auto;
   align-items: baseline;
 }
 
-.logo {
-  background-color: blue;
-  width: 35%;
+.nav-links {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  list-style: none;
 }
+
+.top {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: -1;
+}
+
 .nav-list {
-  background-color: brown;
   width: 65%;
+  margin: auto;
 }
 
 .nav-list ul {
-  display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: space-between;
 }
 
-.introduction {
-  width: 80%;
+.website-images {
+  height: 20rem;
+  width: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.school-item {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.school-images {
+  height: 10rem;
+  width: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.school-desc {
+  margin-left: 3rem;
+}
+
+footer {
+  width: 95%;
   margin: auto;
 }
 
-.about {
-  width: 80%;
-  margin: auto;
-  display: flex;
+.iconandtext {
+  align-items: baseline;
 }
 
-.jobs {
-  display: flex;
-  flex-wrap: wrap;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
-.job-item {
-  border: black solid;
-  background-color: chartreuse;
-  width: 50%;
-  margin: 0.2rem;
-  height: 8rem;
-  box-shadow: black;
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
 }
